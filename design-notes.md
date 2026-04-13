@@ -15,7 +15,7 @@ giving the *unchanged parts* of changed lines `bg1` and the
 
 # How I got here
 
-The default gruvbox scheme using solid colors and reverse video is easy
+The default Gruvbox scheme using solid colors and reverse video is easy
 to read but very intense. I replaced the reverse video colors with
 different background shades and kept the foreground colors, in order to
 present the same information in multiple ways.
