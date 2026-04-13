@@ -11,7 +11,7 @@ of changed lines have medium shading (`bg1`), and *additions* and the
 *unchanged parts* of changed lines have no shading (`bg0`). I tried
 giving the *unchanged parts* of changed lines `bg1` and the
 *changed parts* `bg0`—so that the new version of the file always had
-`bg0`-but in practice this looks less confusing.
+`bg0`—but in practice this looks less confusing.
 
 # How I got here
 
