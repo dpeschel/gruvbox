@@ -1,6 +1,6 @@
 # The basic idea
 
-In diffs mode, use only the four Gruvbox background colors `bg0`--`bg3`
+In diffs mode, use only the four Gruvbox background colors `bg0`–`bg3`
 to show changes. This creates more understated colors than the existing
 highlighting. It also shows per-language syntax highlighting (C, LISP,
 Vimscript, etc.) and changes at the same time. And it handles light and
@@ -10,8 +10,8 @@ dark backgrounds.
 of changed lines have medium shading (`bg1`), and *additions* and the
 *unchanged parts* of changed lines have no shading (`bg0`). I tried
 giving the *unchanged parts* of changed lines `bg1` and the
-*changed parts* `bg0`---so that the new version of the file always had
-`bg0`---but in practice this looks less confusing.
+*changed parts* `bg0`—so that the new version of the file always had
+`bg0`-but in practice this looks less confusing.
 
 # How I got here
 
@@ -35,9 +35,10 @@ Initially I thought of a range of dark->light shades:
 3. the unchanged parts of changed-text lines
 4. the changed parts of changed-text lines
 5. added text
+
 But how do you choose the shading of completely-unchanged lines?
-And the window bar, tab bar, and fold column? I simplified the scheme
-to this one.
+And the window bar, tab bar, and fold column? I simplified the range
+to the current one.
 
 You need to look at both windows to understand the type of change.
 For example, the shading for deletions only appears in one window;
