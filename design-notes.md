@@ -29,14 +29,14 @@ contain diffs! Could I stop Gruvbox from setting the foreground colors,
 so I had `lisp` syntax coloring of all lines _and_ `diff` shading of the
 background? Yes.
 
-Initially I thought of a range of dark->light shades:
-1. the "all dashes" lines darkest,
+Initially I thought of a range of dark→light shades:
+1. the "all dashes" lines for deletions darkest
 2. identical text
 3. the unchanged parts of changed-text lines
 4. the changed parts of changed-text lines
-5. added text
+5. added text lightest
 
-But how do you choose the shading of completely-unchanged lines?
+But how do you also choose the shading of completely-unchanged lines?
 And the window bar, tab bar, and fold column? I simplified the range
 to the current one.
 
